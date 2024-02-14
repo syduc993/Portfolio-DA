@@ -2,7 +2,7 @@ import dash
 from dash import dcc, html
 import dash_bootstrap_components as dbc
 
-dash.register_page(__name__, path='/', name='Home')
+dash.register_page(__name__, path='/about', name='About')
 
 # Khởi tạo layout trang web
 layout = html.Div(

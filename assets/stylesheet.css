@@ -7,6 +7,7 @@ body {
     text-align: left;
     font-family: 'Segoe UI', sans-serif;
     font-weight: normal;
+    line-height: 1.5;
   }
 
 .project-container-1 {
@@ -32,6 +33,7 @@ body {
 .project-container-2 {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
   
 }
 .project-image-2 {
@@ -44,6 +46,43 @@ body {
 }
 
 .small-image-2 {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.project-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.project-image-3 {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.project-details-3 {
+  flex: 2;
+}
+
+.small-image-3 {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.project-container-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-image-4 {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.project-details-4 {
+  flex: 2;
+}
+
+.small-image-4 {
   max-width: 500px;
   max-height: 500px;
 }
@@ -61,6 +100,8 @@ body {
 
 .cv-info {
   flex: 3;
+  white-space: pre-wrap;
+  /* Để không gộp khoảng trắng */
 }
 
 .cv-container-2 {
@@ -114,3 +155,11 @@ body {
   max-height: 889px;
   margin-top: 20px;
 }
+
+
+.solid-line {
+  border-top: 2px solid black;
+  /* Kẻ dòng */
+}
+
+
